@@ -7,6 +7,9 @@
     float: left;
     height: 100px;
     width: 100px;
+    text-align: center;
+    font-size: 4em;
+    color: cadetblue;
 }
 
 .row {
@@ -16,17 +19,27 @@
 }
 
 .top {
-    border-bottom: 1px royalblue solid
+    border-bottom: 1px royalblue solid;
+
 }
 .bottom {
     border-top: 1px plum solid;
+    
 }
 .left {
     border-right: 1px gold solid;
+    
 }
 .right {border-left: 1px seagreen solid;
+
 }
 
 .row :hover { 
     cursor: pointer;
+}
+
+button {
+    background-color:lightskyblue;
+    font-size: 15px;
+    
 }
